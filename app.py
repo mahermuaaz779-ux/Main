@@ -14,7 +14,7 @@ st.title("Melanoma Image Classifier")
 st.write("Upload an image to get an experimental CNN model prediction.")
 
 # Replace with your actual model filename
-MODEL_PATH = skin_cancer_cnn_under25mb.keras
+MODEL_PATH = "skin_cancer_cnn_under25mb.keras"
 # Temporary labels until you confirm Kaggle's class mapping
 CLASS_NAMES = None
 
